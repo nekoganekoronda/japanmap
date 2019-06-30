@@ -1,0 +1,858 @@
+.clickaresjmap .dropdown-menu {
+	top: initial;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+.clickaresjmap .dropdown-menu > li > a {
+	padding: initial;
+	line-height: inherit;
+}
+ 
+@media screen and (min-width: 576px) {
+.clickaresjmap {
+	display: block;
+	margin: 10px;
+	padding: 0;
+	position: relative;
+	font-size: 14px;
+	min-width: 630px;
+}
+.clickaresjmap *:after {
+	display: block;
+	content: " ";
+	line-height: 0;
+}
+.clickaresjmap:after {
+	display: block;
+	content: " ";
+	line-height: 0;
+	padding-top: 70%;
+}
+/*  共通  */
+.clickaresjmap ul {
+	padding: 0;
+}
+.clickaresjmap li, .clickaresjmap li ul {
+	display: block;
+	min-width: 3em;
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.clickaresjmap li ul {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+}
+.clickaresjmap li.area li.todofuken a:hover {
+	color: #ffffff;
+	background-color: inherit;
+}
+.clickaresjmap li.area li.todofuken {
+	border: 1px solid black;
+}
+.clickaresjmap li.area li.todofuken:hover {
+	opacity:0.5;
+}
+.clickaresjmap a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.todofukenname {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+.dropdown-toggle {
+	position: absolute;
+}
+/*    北海道エリア    */
+.hokkaido-area {
+	display: block;
+	width: 20%;
+	top: 0;
+	left: 80%;
+}
+.hokkaido-area:after {
+	padding-top: 65%;
+}
+.hokkaido {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	background-color: white;
+}
+.hokkaido a:after {
+	padding-top: 65%;
+}
+/*   東北エリア     */
+.touhoku-area {
+	display: block;
+	width: 20%;
+	top: 20%;
+	left: 80%;
+	z-index: 1;
+}
+.touhoku-area:after {
+	padding-top: 100%;
+}
+.aomori {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	background-color: white;
+}
+.aomori a:after {
+	padding-top: 25%;
+}
+.iwate {
+	width: 50%;
+	top: 25%;
+	left: 50%;
+	line-height: 0;
+	background-color: white;
+}
+.iwate a:after {
+	padding-top: 50%;
+}
+.akita {
+	width: 50%;
+	top: 25%;
+	left: 0%;
+	line-height: 0;
+	background-color: white;
+}
+.akita a:after {
+	padding-top: 50%;
+}
+.miyagi {
+	width: 50%;
+	top: 50%;
+	left: 50%;
+	line-height: 0;
+	background-color: white;
+}
+.miyagi a:after {
+	padding-top: 50%;
+}
+.yamagata {
+	width: 50%;
+	top: 50%;
+	left: 0%;
+	line-height: 0;
+	background-color: white;
+}
+.yamagata a:after {
+	padding-top: 50%;
+}
+.fukushima {
+	width: 100%;
+	top: 75%;
+	left: 0;
+	line-height: 0;
+	background-color: white;
+}
+.fukushima a:after {
+	padding-top: 24%;
+}
+/*  　   関東エリア   */
+.kanto-area {
+	display: block;
+	width: 20%;
+	top: 48%;
+	left: 80%;
+}
+.kanto-area:after {
+	padding-top: 100%;
+}
+.ibaraki {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	left: 66.67%;
+	background-color: white;
+}
+.ibaraki a:after {
+	padding-top: 150%;
+}
+.tochigi {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	left: 33.33%;
+	background-color: white;
+}
+.tochigi a:after {
+	padding-top: 100%;
+}
+.gunma {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	left: 0;
+	background-color: white;
+}
+.gunma a:after {
+	padding-top: 100%;
+}
+.chiba {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 49%;
+	left: 66.67%;
+	background-color: white;
+}
+.chiba a:after {
+	padding-top: 150%;
+}
+.saitama {
+	width: 66.67%;
+	text-align: center;
+	line-height: 0;
+	top: 33.33%;
+	left: 0;
+	background-color: white;
+}
+.saitama a:after {
+	padding-top: 33.33%;
+}
+.tokyo {
+	width: 66.67%;
+	text-align: center;
+	line-height: 0;
+	top: 55.33%;
+	left: 0;
+	background-color: white;
+}
+.tokyo a:after {
+	padding-top: 33.33%;
+}
+.kanagawa {
+	width: 66.67%;
+	text-align: center;
+	line-height: 0;
+	top: 78.3%;
+	left: 0;
+	background-color: white;
+}
+.kanagawa a:after {
+	padding-top: 33.33%;
+}
+/*   甲信越エリア    */
+.koshin-etsu-area {
+	display: block;
+	width: 13%;
+	top: 41%;
+	left: 67%;
+	z-index: 3;
+}
+.koshin-etsu-area:after {
+	padding-top: 140%;
+}
+.nigata {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.nigata a:after {
+	padding-top: 45%;
+}
+.nagano {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 33.33%;
+	left: 0;
+	background-color: white;
+}
+.nagano a:after {
+	padding-top: 45%;
+}
+.yamanashi {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 66.67%;
+	left: 0;
+	background-color: white;
+}
+.yamanashi a:after {
+	padding-top: 45%;
+}
+/*  北陸エリア  */
+.hokuriku-area {
+	display: block;
+	width: 21%;
+	top: 48%;
+	left: 46%;
+	z-index: 2;
+}
+.hokuriku-area:after {
+	padding-top: 40%;
+}
+.toyama {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 66.67%;
+	background-color: white;
+}
+.toyama a:after {
+	padding-top: 121%;
+}
+.ishikawa {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 33.33%;
+	background-color: white;
+}
+.ishikawa a:after {
+	padding-top: 121%;
+}
+.fukui {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.fukui a:after {
+	padding-top: 121%;
+}
+/*   東海エリア    */
+.toukai-area {
+	display: block;
+	width: 22%;
+	top: 60%;
+	left: 58%;
+	z-index: 2;
+}
+.toukai-area:after {
+	padding-top: 55%;
+}
+.shizuoka {
+	width: 40%;
+	text-align: center;
+	line-height: 0;
+	top: 38%;
+	left: 60%;
+	background-color: white;
+}
+.shizuoka a:after {
+	padding-top: 86%;
+}
+.aichi {
+	width: 30%;
+	text-align: center;
+	line-height: 0;
+	top: 46%;
+	left: 30%;
+	background-color: white;
+}
+.aichi a:after {
+	padding-top: 100%;
+}
+.gifu {
+	width: 45%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.gifu a:after {
+	padding-top: 55%;
+}
+.mie {
+	width: 30%;
+	text-align: center;
+	line-height: 0;
+	top: 46%;
+	left: 0;
+	background-color: white;
+}
+.mie a:after {
+	padding-top: 100%;
+}
+/* 関西エリア */
+.kansai-area {
+	display: block;
+	width: 21%;
+	top: 55%;
+	left: 37%;
+	z-index: 1;
+}
+.kansai-area:after {
+	padding-top: 100%;
+}
+.shiga {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 17%;
+	left: 66.67%;
+	background-color: white;
+}
+.shiga a:after {
+	padding-top: 100%;
+}
+.kyoto {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 33.33%;
+	background-color: white;
+}
+.kyoto a:after {
+	padding-top: 152%;
+}
+.nara {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+}
+.nara a:after {
+	padding-top: 50%;
+}
+.oosaka {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 0;
+	background-color: white;
+}
+.oosaka a:after {
+	padding-top: 50%;
+}
+.wakayama {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 75%;
+	left: 0;
+	background-color: white;
+}
+.wakayama a:after {
+	padding-top: 25%;
+}
+.hyogo {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.hyogo a:after {
+	padding-top: 152%;
+}
+/*   中国エリア    */
+.chugoku-area {
+	display: block;
+	width: 20%;
+	top: 55%;
+	left: 17%;
+	z-index: 1;
+}
+.chugoku-area:after {
+	padding-top: 55%;
+}
+.tottori {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 66.67%;
+	background-color: white;
+}
+.tottori a:after {
+	padding-top: 82%;
+}
+.shimane {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 33.33%;
+	background-color: white;
+}
+.shimane a:after {
+	padding-top: 82%;
+}
+.okayama {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 66.67%;
+	background-color: white;
+}
+.okayama a:after {
+	padding-top: 82%;
+}
+.hiroshima {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 33.33%;
+	background-color: white;
+}
+.hiroshima a:after {
+	padding-top: 82%;
+}
+.yamaguchi {
+	width: 33.33%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.yamaguchi a:after {
+	padding-top: 167%;
+}
+/*   四国エリア   */
+.shikoku-area {
+	display: block;
+	width: 18%;
+	top: 72.5%;
+	left: 18%;
+	z-index: 1;
+}
+.shikoku-area:after {
+	padding-top: 50%;
+}
+.kagawa {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 50%;
+	background-color: white;
+}
+.kagawa a:after {
+	padding-top: 50%;
+}
+.tokushima {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+}
+.tokushima a:after {
+	padding-top: 50%;
+}
+.kouchi {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 0;
+	background-color: white;
+}
+.kouchi a:after {
+	padding-top: 50%;
+}
+.ehime {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.ehime a:after {
+	padding-top: 50%;
+}
+/*     九州エリア     */
+.kyu-syu-area {
+	display: block;
+	width: 16.5%;
+	top: 56%;
+	left: 0;
+	z-index: 1;
+}
+.kyu-syu-area:after {
+	padding-top: 150%;
+}
+.fukuoka {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 50%;
+	background-color: white;
+}
+.fukuoka a:after {
+	padding-top: 75%;
+}
+.ooita {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 25%;
+	left: 50%;
+	background-color: white;
+}
+.ooita a:after {
+	padding-top: 75%;
+}
+.miyazaki {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 50%;
+	background-color: white;
+}
+.miyazaki a:after {
+	padding-top: 75%;
+}
+.kumamoto {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 50%;
+	left: 0;
+	background-color: white;
+}
+.kumamoto a:after {
+	padding-top: 75%;
+}
+.saga {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.saga a:after {
+	padding-top: 75%;
+}
+.nagasaki {
+	width: 50%;
+	text-align: center;
+	line-height: 0;
+	top: 25%;
+	left: 0;
+	background-color: white;
+}
+.nagasaki a:after {
+	padding-top: 75%;
+}
+.kagoshima {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 75%;
+	left: 0;
+	background-color: white;
+}
+.kagoshima a:after {
+	padding-top: 37%;
+}
+/*      沖縄エリア      */
+.okinawa-area {
+	display: block;
+	width: 10%;
+	top: 92.5%;
+	left: 0;
+	z-index: 1;
+}
+.okinawa-area:after {
+	padding-top: 50%;
+}
+.okinawa {
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.okinawa a:after {
+	padding-top: 50%;
+}
+}
+ 
+@media (max-width: 575px) {
+.container {
+	width: 100%;
+	min-width: 100%;
+	border: none;
+	margin: 0;
+}
+.caret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+.dropdown {
+	position: relative;
+	list-style: none;
+	padding: 0;
+}
+.dropdown>li {
+	padding: 0;
+	width: 6em;
+	height: 44px;
+	border: #CCC 1px solid;
+	border-radius: 5px;
+}
+.dropdown-toggle {
+	widows: 100%;
+	height: 100%;
+	display: block;
+	line-height: 44px;
+	text-align: center;
+}
+.dropdown-toggle:focus {
+	outline: 0;
+}
+.dropdown-menu {
+	position: absolute;
+	left: 5em;
+	top: auto;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 160px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	list-style: none;
+	background-color: transparent;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.dropdown-menu.pull-right {
+	right: 0;
+	left: auto;
+}
+.dropdown-menu .divider {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+.dropdown-menu > li > a {
+	display: block;
+	padding: 6px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+	border-bottom: #CCC 1px solid;
+}
+.dropdown-menu > li > a:last-child {
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #262626;
+	text-decoration: none;
+	background-color: #f5f5f5;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #428bca;
+	outline: 0;
+}
+.dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+	color: #999;
+}
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+	text-decoration: none;
+	cursor: not-allowed;
+	background-color: transparent;
+	background-image: none;
+ filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.open > .dropdown-menu {
+	display: block;
+}
+.open > a {
+	outline: 0;
+}
+.dropdown-menu-right {
+	right: 0;
+	left: auto;
+}
+.dropdown-menu-left {
+	right: auto;
+	left: 0;
+}
+.dropdown-header {
+	display: block;
+	padding: 3px 20px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	color: #999;
+}
+.dropdown-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 990;
+}
+.pull-right > .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+	content: "";
+	border-top: 0;
+	border-bottom: 4px solid;
+}
+.dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
+	top: auto;
+	bottom: 100%;
+	margin-bottom: 1px;
+}
+.navbar-right .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+.navbar-right .dropdown-menu-left {
+	right: auto;
+	left: 0;
+}
+}
+.bgGreen {
+    background-color: #00a364;
+}
