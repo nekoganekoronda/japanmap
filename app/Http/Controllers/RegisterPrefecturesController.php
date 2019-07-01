@@ -19,12 +19,25 @@ class RegisterPrefecturesController extends Controller
         if (\Auth::check()) {
             $user = \Auth::user();
             $prefectures = $user->RegisterPrefectures()->pluck('prefecture_id')->toArray();
+
+            $cnt = count($prefectures);
+            $comment = "";
+
+            if($cnt == 47) {
+                $comment = "全国制覇　おめでとう！";
+            }else {
+                $comment = "行ったことのある都道府県をクリックして、<br>
+                            登録しよう！<br>
+                            目指せ全国制覇！";
+            }
+
             $data = [
                 'user' => $user,
                 'prefectures' => $prefectures,
+                'comment' => $comment,
             ];
         }
-        
+
         return view('welcome', $data);
     }
 
@@ -47,8 +60,8 @@ class RegisterPrefecturesController extends Controller
     public function store(Request $request)
     {
         $registerPrefecture = new RegisterPrefecture;
-        $registerPrefecture->whereIn('user_id', \Auth::user())->delete();
-
+        $registerPrefecture->where('user_id', \Auth::user()->id)->delete();
+    
         $prefectures = explode(",", $request->clickedTodofuken);
         $prefecture_id = 0;
 
